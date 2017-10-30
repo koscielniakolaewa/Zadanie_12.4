@@ -16,3 +16,5 @@ function getJoke() {
 }
 
 var response = JSON.parse(xhr.response);
+
+var url = 'http://api.icndb.com/jokes/random';
